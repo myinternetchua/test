@@ -1,5 +1,6 @@
-#Include once "gmp.bi"
+REM https://rosettacode.org/wiki/Smallest_numbers#FreeBASIC
 
+#include once "gmp.bi"
 #define maxbufsz 100000000
 #define dp 3321921
 Dim Shared As Zstring * maxbufsz outtext
@@ -38,7 +39,6 @@ REM Main program
 dim as integer k
 dim as uinteger i
 
-REM https://rosettacode.org/wiki/Smallest_numbers#FreeBASIC
 for i = 0 to 50
     k = 0
     do
