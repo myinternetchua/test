@@ -1,0 +1,12 @@
+rm cuba.exe
+rm flog.txt
+
+dos2unix cuba.bas
+
+#Sample on how to compile using gcc freebasic
+fbc \
+  -i /usr/local/include/freebasic \
+  -lang fb \
+  -x cuba.exe \
+  cuba.bas \
+  -l gmp
